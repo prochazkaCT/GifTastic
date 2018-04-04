@@ -1,0 +1,77 @@
+body {
+  background-color: springgreen;
+  font-family: 'Gloria Hallelujah', cursive;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h1, #band-form {
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+#band-form {
+  font-size: 30px;
+}
+
+.mygiphys {
+  margin: auto;
+  float: right;
+  padding: 10px;  
+}
+
+.band-btn, #add-band {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background-color: salmon;
+  font-weight: bolder;
+  font-size: 24px;
+  font-family: 'Monoton', cursive;
+  padding: 12px 28px;
+  border-radius: 12px;
+  border: 2px solid black;
+  transition-duration: 0.4s;
+} 
+.band-btn:hover, #add-band:hover {
+  background-color: blueviolet;
+}
+
+#add-band {
+  font-size: 20px;
+}
+
+#band-input {
+  padding: 12px 28px;
+  font-size: 24px;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.movingimg {
+  display: none;
+}
+
+.stillimg {
+  display: inline-block;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.band-view-container {
+  margin-right: 80px;
+  border-top-style: dotted;
+  border-width: medium;
+  border-color: purple;
+}
